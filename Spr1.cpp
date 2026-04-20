@@ -329,7 +329,7 @@ void key_callback(GLFWwindow* window, int key, int scancode, int action, int mod
 }
 int main(void)
 {
-    ifstream plik("D:/Scripts/cpp/OpenGL/obraz3.txt");
+    ifstream plik("D:/Scripts/cpp/OpenGL/GLFW_GUI_SPR_1/obraz3.txt");
     plik >> lw >> lk;
     cout << "wiersze=" << lw << " kolumny=" << lk << endl;
     for (int i = 0; i < lw; ++i)
